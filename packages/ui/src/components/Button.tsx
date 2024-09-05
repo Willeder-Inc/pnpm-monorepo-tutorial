@@ -1,7 +1,7 @@
 import { ComponentProps } from 'react';
 
 const Button = (props: ComponentProps<'button'>) => {
-  return <button {...props} />;
+  return <button style={{ background: 'red' }} {...props} />;
 };
 
 export default Button;
